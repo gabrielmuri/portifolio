@@ -248,14 +248,14 @@ html, body{
 .rede{
     width: 80px;
     height: 80px;
-    border-radius: 40px;;
+    border-radius: 40px;
     margin: 0 auto;    
     cursor: pointer;
 }
 
 .rede img{
     width: 80px;
-    height: 80px;;
+    height: 80px;
 }
 
 .rede span{
@@ -333,3 +333,33 @@ footer{
         word-wrap: break-word;
     }
  }
+
+ @media screen and (max-width: 481px){
+     .home{
+         height: 900px;
+     }
+    .image-home{
+         width: 100%;
+         margin-bottom: 10px;
+     }
+     .text-home{
+         width: 100%;
+         height: auto;
+     }
+ }
+
+ @media screen and (max-width: 465px){
+    .container-contacts{
+        padding: 100px 2%;
+    }
+ }
+
+ @media screen and (max-width: 421px){
+     .tech{
+         height: 1350px;
+     }
+     
+    
+ }
+
+ 

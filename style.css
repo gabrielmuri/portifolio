@@ -205,6 +205,7 @@ html, body{
 }
 
 .carousel-item{
+    
     z-index: 0;
     border: 5px solid #00C7FF;
 }
@@ -356,13 +357,15 @@ footer{
 
  @media screen and (max-width: 421px){
      .tech{
-         height: 1350px;
+         height: 1275px;
      }
     
      .project{
-         height: 700px;
+         height: 600px;
      }
-    
+    .container-linguagens{
+        padding: 20px 2%;
+    }
  }
 
  

@@ -11,19 +11,8 @@ function slideToSection()
         const _doc = $('html, body');
         const href = $(this).attr('href');
 
-        _doc.animate({scrollTop: $( href ).offset.top
-        }, 800);
+        _doc.animate({scrollTop: $( href ).offset().top
+        }, 500);
     })
-    /*
-    document.getElementByClass('nav-link').addEventListener('click', function(e){
-        e.preventDefault();
-        const _doc = $('html, body');
-        const href = $(this).attr('href');
-
-        _doc.animate({
-            scrollTop: $( href ).offset().top
-        }, 800);
-    });
-    */
-
-}
+    
+};

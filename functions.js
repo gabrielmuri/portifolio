@@ -12,6 +12,6 @@ function slideToSection()
 
         _doc.animate({
             scrollTop: $( href ).offset().top
-        }, 500);
+        }, 300);
     });
 };

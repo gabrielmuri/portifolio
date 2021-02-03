@@ -1,4 +1,3 @@
-window.alert('olá');
 $(document).ready(function()
 {
     slideToSection();

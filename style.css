@@ -364,6 +364,9 @@ footer{
     .container-contacts{
         padding: 100px 2%;
     }
+    .project{
+        height: 570px;
+    }
  }
 
  @media screen and (max-width: 421px){

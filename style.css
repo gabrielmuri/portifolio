@@ -336,7 +336,18 @@ footer{
  }
 
  @media screen and (max-width: 481px){
-     .home{
+    .navbar-brand img{
+        width: 60px;
+        height: 60px;
+    }
+    .preenche{
+        height: 100px;
+    }
+    .tecnologias{
+        position: relative;
+        top: -100px;
+    }
+    .home{
          height: 900px;
      }
     .image-home{
@@ -367,5 +378,3 @@ footer{
         padding: 20px 2%;
     }
  }
-
- 

@@ -422,6 +422,15 @@ footer{
      }
  }
 
+ @media screen and (max-width: 359px){
+     .home{
+         height: 930px;
+     }
+     .tech{
+         height: 1300px;
+     }
+ }
+
  @media screen and (max-width: 353px){
     .home{
         height: 930px;

@@ -4,6 +4,7 @@
     
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Bootstrap CSS -->
     <link rel="shortcut icon" type="image-x/png" href="programacao.ico">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css2?family=Khand:wght@400;500&display=swap" rel="stylesheet">
@@ -30,7 +31,7 @@
                             <a id="nav-link" class="nav-link" href="#tecnologias" style="color: #00C7FF; font-size: 25px; padding: 10px;">TECNOLOGIAS</a>
                           </li>
                           <li id="menu" class="nav-item">
-                            <a id="nav-link" class="nav-link" href="#projetos" style="color: #00C7FF; font-size: 25px; padding: 10px;">PROJETOS</a>
+                            <a id="nav-link" class="nav-link" href="#projetos" style="color: #00C7FF; font-size: 25px; padding: 10px; transition: 0.3s;">PROJETOS</a>
                           </li>
                           <li id="menu" class="nav-item">
                             <a id="nav-link" class="nav-link" href="#contatos" style="color: #00C7FF; font-size: 25px; padding: 10px;">CONTATOS</a>
@@ -72,12 +73,12 @@
     <!--FIM SESSÃO SOBRE-->
 
     <!--INICIO SESSÃO TECNOLOGIAS-->
-    <a id="tecnologias" style="position: relative; top: -180px;"></a>
+    <a id="tecnologias" style="position: relative; top: -150px;"></a>
     <section class="tech">
       <div class="center">
           <div class="container-linguagens">
             <h1>Tecnologias</h1><a href="" id="tecnologias"></a>
-            <p>A seguir estão algumas das tecnologias, linguagens de programação e banco de dados que eu utilizei até o momento. Em minha faculdade utilizei as linguagens de programação C# (c sharp)e Java, banco de dados utilizei o MySql para desenvolver os projetos/trabalhos. No curso Fullstack estudo as tecnologias HTML e CSS e a linguagem de programação JavaScript para desenvolvimento front-end. No meu dia a dia no trabalho utilizo o banco de dados Postgres.</p>
+            <p>A seguir estão algumas das tecnologias, linguagens de programação e banco de dados que eu utilizei até o momento. Em minha faculdade utilizei as linguagens de programação C# (c sharp) e Java, banco de dados utilizei o MySql para desenvolver os projetos/trabalhos. No curso Fullstack estudo as tecnologias HTML e CSS e a linguagem de programação JavaScript para desenvolvimento front-end. No meu dia a dia no trabalho utilizo o banco de dados Postgres.</p>
             <div class="linguagens">
               
                 <div class="lang">
@@ -123,7 +124,7 @@
     <!--FIM SESSÃO TECNOLOGIA-->
 
     <!--INICIO SESSÃO PROJETOS-->
-    <a  id="projetos" style="position: relative; top: -180px"></a>
+    <a  id="projetos" style="position: relative; top: -150px"></a>
     <section class="project">
       <div class="center">
         <div class="container-projects">
@@ -219,33 +220,22 @@
     <!--FIM SESSÃO PROJETOS-->
 
     <!--INICIO SESSÃO CONTATO-->
-    <a id="contatos" style="position: relative; top: -180px"></a>
+    <a id="contatos" style="position: relative; top: -130px"></a>
     <section class="contact">
       <div class="center">
         <h1>Redes e Contatos</h1>
+        
         <div class="container-contacts">
           
-          <div class="rede">
-            <a href="https://www.instagram.com/gabrielmuri_/?hl=pt" target="_blank"><input type="button" value="" style=" width: 80px;  height: 80px; border: 5px solid #00C7FF; color: #00C7FF; border-radius: 40px;background-image: url('instagram.png'); background-repeat: no-repeat;  background-size: cover;"></a>
-            <span>Instagran</span>
-          </div><!--rede-->
-
-          <div class="rede">
-            <a href="https://www.linkedin.com/in/gabriel-g-muri-bb88571a4/" target="_blank"><input type="button" value="" style="width: 80px; height: 80px; border: 5px solid #00C7FF; color: #00C7FF; border-radius: 40px;   background-image: url('linkedin.png'); background-repeat: no-repeat; background-size: cover;"></a>
-            <span>Linkedin</span>
-          </div><!--rede-->
-
-          <div class="rede">
-            <a href="https://www.facebook.com/gabriel.muri.77/" target="_blank"><input type="button" value="" style="width: 80px; height: 80px; border: 5px solid #00C7FF; color: #00C7FF;      border-radius: 40px; background-image: url('facebook.png'); background-repeat: no-repeat; background-size: cover;"></a>
-            <span>Facebook</span>
-          </div><!--rede-->  
-
-          <div class="rede">
+          <ul>
+            <li class="rede"><a href="https://www.instagram.com/gabrielmuri_/?hl=pthttps://www.instagram.com/gabrielmuri_/?hl=pt" target="_blank"><img src="instagram.png" alt="" title="Instagram"></a></li>
             
-            <a href="https://api.whatsapp.com/send?phone=5528999959589&text=Ol%C3%A1%20meu%20nome%20%C3%A9%20%5Binforme%20seu%20nome%5D%2C%20meu%20contato%20%C3%A9%20a%20respeito%20de%3A%20%5Binforme%20o%20assunto%20do%20contato%5D" target="_blank"><input type="button" value="" style="width: 80px; height: 80px; border: 5px solid #00C7FF; color: #00C7FF;border-radius: 40px; background-image: url('whatsapp.png'); background-repeat: no-repeat; background-size: cover;"></a>
-            <span>Whatsapp</span>
-           
-          </div><!--rede-->           
+            <li class="rede"><a href="https://www.linkedin.com/in/gabriel-g-muri-bb88571a4/" target="_blank"><img src="linkedin.png" alt="" title="Linkedin"></a></li>
+            
+            <li class="rede"><a href="https://www.facebook.com/gabriel.muri.77/" target="_blank"><img src="facebook.png" alt="" title="Facebook"></a></li>
+            
+            <li class="rede"><a href="https://api.whatsapp.com/send?phone=5528999959589&text=Ol%C3%A1%20meu%20nome%20%C3%A9%20%5Binforme%20seu%20nome%5D%2C%20meu%20contato%20%C3%A9%20a%20respeito%20de%3A%20%5Binforme%20o%20assunto%20do%20contato%5D" target="_blank"><img src="whatsapp.png" alt="" title="Whatsapp"></a></li>
+          </ul>    
                                       
         </div><!--container-contacts-->
       </div><!--center-->
@@ -307,6 +297,5 @@
     <script src="functions.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
     <!--FIM SCRIPTS-->
-    
   </body>
 </html>

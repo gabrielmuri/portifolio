@@ -34,8 +34,8 @@ html, body{
  }
 
  .navbar img{
-     width:130px;
-     height: 130px;     
+     width:100px;
+     height: 100px;     
  }
 
  .nav-link{
@@ -44,13 +44,16 @@ html, body{
 
  #menu:hover{
     text-decoration: underline;
+    color: #00C7FF;
+    
  }
+ 
  /**Fim Header menu Principal***/
 
 /**Preenchimento barra de navegação**/
 .preenche{
     width: 100%;
-    height: 180px;
+    height: 150px;
 }
 /**Fim Preenchimentp**/
 
@@ -227,7 +230,7 @@ html, body{
 
 .contact{
     width: 100%;
-    height: 400px;
+    height: 230px;
     padding: 20px 2%;
     background-color: #00C7FF;
 }
@@ -238,30 +241,43 @@ html, body{
 }
 
 .container-contacts{
-    width: 100%;
-    height: 300px;
-    padding: 100px 2%;
+    width: 400px;
+    height: auto;
+    margin: 0 auto;
     display: flex;
     text-align: center;
     background-color: #294B6E;
+    box-shadow: 0px 0px 11px 3px rgba(0,0,0,0.4);
+    -webkit-box-shadow: 0px 0px 11px 3px rgba(0,0,0,0.4);
+    -moz-box-shadow: 0px 0px 11px 3px rgba(0,0,0,0.4);
+}
+
+.container-contacts ul {
+    display: flex;  
+    padding-left: 15px;
+    padding-right: 15px;;
+    padding-top: 15px;
+    
 }
 
 .rede{
-    width: 80px;
-    height: 80px;
-    border-radius: 40px;
-    margin: 0 auto;    
-    cursor: pointer;
+    list-style: none;
+    padding: 0px 2%;
 }
 
-.rede img{
+.rede a img{
     width: 80px;
     height: 80px;
+         
 }
 
-.rede span{
-    color: #00C7FF;
+.rede a img:hover{
+    border: 5px solid #00C7FF;
+    background-color: #00C7FF;
+    border-radius: 70px;
+    transition: 0.5s;      
 }
+
 /**Fim sessão contatos**/
 
 /**Inicio sessão download**/
@@ -280,6 +296,7 @@ html, body{
 .download button{
     width: 250px;
     height: 50px;
+    margin-top: 20px;;
     background-color: #00C7FF;
     border: 0;
     cursor: pointer;
@@ -299,7 +316,7 @@ html, body{
 footer{
     width: 100%;
     height: 80px;
-    padding: 50px 2%;
+    padding: 30px 2%;
     text-align: center;
     color: #00C7FF;
     background-color: #3B434C;
@@ -308,7 +325,7 @@ footer{
  /**Responsivo**/
 @media screen and (max-width: 982px){
     .tech{
-        height: 1320px;
+        height: 1220px;
     }
 
     .lang{
@@ -347,6 +364,9 @@ footer{
         position: relative;
         top: -100px;
     }
+    .project{
+        height: 580px;
+    }
     .home{
          height: 900px;
      }
@@ -362,10 +382,18 @@ footer{
 
  @media screen and (max-width: 465px){
     .container-contacts{
-        padding: 100px 2%;
+        padding: 10px 2%;
     }
     .project{
         height: 570px;
+    }
+ }
+
+ @media screen and (max-width: 441px){
+    .rede a img{
+        width: 60px;
+        height: 60px;
+        margin-left: 14px;
     }
  }
 
@@ -380,6 +408,18 @@ footer{
     .container-linguagens{
         padding: 20px 2%;
     }
+ }
+
+ @media screen and (max-width: 419px){
+     .container-contacts{
+         width: auto;
+     }
+ }
+
+ @media screen and (max-width: 373px){
+     .rede{
+         padding: 0;
+     }
  }
 
  @media screen and (max-width: 353px){
